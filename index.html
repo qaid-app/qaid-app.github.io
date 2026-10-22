@@ -4,6 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>QAid — free QA extension for Chrome</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="mask-icon" href="/favicon.svg" color="#2F5BEA">
 <meta name="description" content="QAid — free Chrome extension: 20 QA tools in one panel. Bug report with video, forms, decoders, environment emulation. All local, no account.">
 <!-- Open Graph / SEO (self-hosted) -->
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
@@ -220,6 +222,7 @@
   .hero__body {
     position: relative; z-index: 2; display: flex; align-items: center; justify-content: space-between;
     gap: clamp(28px, 4vw, 72px); min-height: 0;
+    width: 100%; max-width: var(--maxw); margin-inline: auto;
     padding-left: max(20px, env(safe-area-inset-left, 0px));
     padding-right: max(20px, env(safe-area-inset-right, 0px));
     padding-top: clamp(96px, 15vh, 150px); padding-bottom: 36px;
